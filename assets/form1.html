@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StekjesBieb - Buurtcampus Oost</title>
+<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/desktop.css">
+</head>
+
+<body>
+    
+    <header> 
+        <div class="header-top">
+            <a href="index.html"><img  class="logo" src="./assets/Buurtcampus Oost-logo 5.svg" alt="Buurtcampus-Oost"></a>  
+            <a href="index.html" class="terug"> TERUG </a>
+        </div>
+        <h1>Voeg uw stekje toe die u wilt ruilen!</h1>   
+    </header>
+
+    <main class="form-main">
+        <h2 class="kopje-form"> 
+            Vul hier de benodigde informatie die nodig zijn,
+            om het stekje goed te onderhouden.
+        </h2>
+
+        <form action="end.html" method="get" class="form-stekje">
+            <div class="form-naam">
+                <label for="name">Naam van uw stekje: </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div class="form-beschrijving">
+                <label for="text">Beschrijving: </label>
+                <textarea name="comment" form="usrform"></textarea>
+            </div>
+
+            <div class="form-verzorging">
+                <label for="text">Verzorging tips: </label>
+                <textarea name="comment" form="usrform"></textarea>
+            </div>
+
+            <div class="form-verzorging">
+                <label for="text">Upload een foto van uw stekje: </label>
+                <div class="upload">
+                    <img class="icon" src="./assets/iPhone 13/🦆 icon _camera_.svg">
+                    <img class="icon" src="./assets/iPhone 13/🦆 icon _Image_.svg">
+                </div>
+            </div>
+
+            <div class="submit-kader">
+                <input class="submit" href="end.html" type="submit" value="RUIL!">
+            </div>
+        </form>
+    </main>
+
+    <div class="campus2">
+        <img class="campus-logo" src="./assets/footer-logo2.svg" alt="campus-logo">
+    </div>
+    
+    <footer>
+        <div class="footer-top">
+            <article class="contact">
+                <h4>Contact Info</h4>
+                <p class="p-footer">
+                    Plantenbieb Nederland <br>
+                    Bij jou in de buurt<br>
+                    hoi@plantenbieb.com
+                </p>
+            </article>
+            
+            <article class="overons">
+                <h4>Overons</h4>
+            
+                <p class="p-footer">
+                    <img class="profiel" src="./assets/profiel.png"> 
+                    <br><br>
+                    Developer: Jalal Toufik
+                </p>
+            </article>
+        </div>
+        <p class="copy">Copyleft 2022, all wrongs reversed.</p>
+    </footer>
+
+</body>
+
+</html>
