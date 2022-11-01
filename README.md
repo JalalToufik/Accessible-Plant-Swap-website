@@ -1,3 +1,5 @@
+Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: https://github.com/fdnd-task/all-human-accessible-website/blob/main/docs/INSTRUCTIONS.md
+
 
 # Buurtcampus: Plant Swap
 
