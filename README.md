@@ -13,7 +13,7 @@ Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze 
 
 ## User-story
  
-**Mijn user story:** Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjes-kast zitten, zodat ik kan overwegen een stekje om te ruilen
+**Mijn user story:** Als bewoner van Amsterdam-Oost wil ik duidelijk kunnen inzien, waar ik stekjes op een fysieke locatie kan ophalen, brengen of ruilen.
 
 
 
