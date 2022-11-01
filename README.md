@@ -1,14 +1,19 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Buurtcampus: Plant Swap
 
 ## Inhoudsopgave
 
-  * [Beschrijving](#beschrijving)
+  * [User-story](#User-story)
   * [Kenmerken](#kenmerken)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
+  
+
+## User-story
+ 
+**Mijn user story:** Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjes-kast zitten, zodat ik kan overwegen een stekje om te ruilen
+
+
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
