@@ -1,4 +1,4 @@
-@media (max-width: 45em) and (min-width: 20em) {
+
 * {
 box-sizing: border-box;
 }
@@ -18,7 +18,6 @@ src: url("../font/BuurtCampusArial-Bold.ttf");
 body {
 background-color: #fff;
 margin: 0 auto;
-width: 100%;
 }
 
 .header-top {
@@ -48,6 +47,7 @@ margin-left: 0.4em;
 
 .header-bottom {
 background-image: url("../assets/header-bg.jpg");
+background-color: rgba(242, 110, 33, 0.936); 
 background-size: cover;
 width: 100%;
 background-position-x: -3em;
@@ -59,13 +59,9 @@ height: 15em;
 background-color: rgba(255, 255, 255, 0.728);
 backdrop-filter: blur(-5px);
 box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
-padding: 1em;
-width: 9em;
-margin: 0 auto;
-margin-top: 8.5rem;
-border-radius: 5px;
-position: relative;
-bottom: 3em;
+margin: 1.5em;
+margin-top: 1.8em;
+padding: 1rem;
 }
 
 .koptext-stekjes {
@@ -100,10 +96,10 @@ align-items: center;
 margin: 0 auto;
 font-family: buurtCampusArial-Bold;
 text-align: center;
-font-size: 1.5em;
+font-size: 32px;
 border-width: 50%;
-margin-top: 2em;
-margin-bottom: 2em;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
 color: rgba(34, 77, 18, 1);
 }
 
@@ -113,9 +109,10 @@ font-family: buurtCampusArial-Bold;
 justify-content: center;
 margin: 0 auto;
 text-align: center;
-font-size: 1rem;
+font-size: 20px;
 color: white;
 background-image: url("../assets/leaves3.jpg");
+background-color: rgba(34, 77, 18, 1);
 background-size: cover;
 opacity: 90%;
 padding: 2rem 0.5rem;
@@ -131,17 +128,18 @@ top: 4.5rem;
 h3 {
 color: rgba(34, 77, 18, 1);
 text-align: center;
-margin-bottom: 5em;
+margin-bottom: 2em;
 font-weight: lighter;
-font-size: 1rem;
+font-size: 16px;
 transition: transform 0.2s;
 }
 
 .koptext {
 color: rgb(4, 9, 2);
 max-width: 30em;
-font-size: 16px;
-padding-top: 1em;
+font-size: 18px;
+padding-top: 4em;
+padding-left: 1em;
 padding-bottom: 2em;
 width: 80%;
 margin-left: auto;
@@ -153,58 +151,25 @@ margin: 0;
 padding: 0;
 }
 
-section {
-width: 22em;
-margin: 0 auto;
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1ft 1fr 1fr 1fr;
-grid-template-areas:
-    " . . "
-    " blok1 blok2"
-    " blok1 blok2"
-    " blok1 blok2";
-padding: 0;
-overflow: hidden;
-}
-
-.overzicht1 {
-grid-area: blok1;
-margin: 0;
-padding: 0;
-padding-top: 4em;
-padding-bottom: 5rem;
-height: 100%;
-margin-right: 0.2em;
-}
-
-.overzicht2 {
-grid-area: blok2;
-margin: 0;
-padding: 0;
-padding-top: 4em;
-padding-bottom: 5rem;
-margin-left: 0.2em;
-height: 100%;
-}
-
 ul {
 list-style-type: none;
-list-style: none;
+list-style: none; 
 justify-content: space-between;
-padding: 0 auto;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+margin: 0  auto;
+align-items: center;
+max-width: 20em;
 }
 
 li {
 text-align: center;
-height: 12em;
-max-height: 20em;
-max-width: 18em;
-width: 10em;
 margin: 0 auto;
+padding: 0;
 display: block;
 text-align: center;
-margin-bottom: 3.5em;
+margin-bottom: 1.5em;
 background-color: rgba(255, 255, 255, 0.638);
 border-radius: 10px;
 box-shadow: 0 8px 14px -10px rgb(10, 13, 0);
@@ -221,12 +186,15 @@ transform: scale(1.1);
 }
 
 .stekje {
-width: 8rem;
-height: 6rem;
+max-width: 18rem;
+min-width: 15rem;
+max-height: 8rem;
+min-height: 6rem;
 object-fit: cover;
 overflow: hidden;
 display: block;
 margin: 0 auto;
+margin: 1em;
 border-radius: 5px;
 transition: transform 0.2s;
 box-shadow: 0 8px 14px -10px rgb(0, 0, 0);
@@ -239,6 +207,7 @@ transition: transform 0.2s;
 
 footer {
 background-image: url("../assets/hout5.jpeg");
+background-color: rgba(34, 77, 18, 1);
 background-size: cover;
 margin: 0;
 width: 100%;
@@ -247,6 +216,7 @@ width: 100%;
 .footer-top {
 display: flex;
 justify-content: center;
+align-items: center;
 margin: 0 auto;
 }
 
@@ -263,12 +233,14 @@ padding-right: 2em;
 .overons {
 border-left: solid white;
 padding-left: 3em;
+
 }
 
 .campus-logo {
 width: 70%;
 height: 60%;
 margin: 0 auto;
+margin-top: 2rem;
 display: block;
 align-items: center;
 }
@@ -555,4 +527,4 @@ border-radius: 5px;
 .campus2 {
 margin-top: 5rem;
 }
-}
+
