@@ -1,4 +1,4 @@
-
+@media  (max-width: 545px) {
 * {
 box-sizing: border-box;
 }
@@ -25,7 +25,8 @@ display: flex;
 justify-content: space-between;
 width: 100%;
 border-bottom: solid rgba(34, 77, 18, 0.071);
-padding-bottom: 1em;
+padding-bottom: 2em;
+padding-top: 2em;
 }
 
 .doneer {
@@ -86,9 +87,6 @@ transform: scale(1.1);
 font-size: 1.2em;
 }
 
-header {
-padding-top: 3em;
-}
 
 h1 {
 display: block;
@@ -186,9 +184,9 @@ transform: scale(1.1);
 }
 
 .stekje {
-max-width: 18rem;
+max-width: 20rem;
 min-width: 15rem;
-max-height: 8rem;
+max-height: 13rem;
 min-height: 6rem;
 object-fit: cover;
 overflow: hidden;
@@ -528,3 +526,4 @@ border-radius: 5px;
 margin-top: 5rem;
 }
 
+}

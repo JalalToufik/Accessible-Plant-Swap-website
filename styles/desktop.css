@@ -1,6 +1,5 @@
 
-@media (min-width: 800px) {
-    
+@media (min-width: 545px) {
 
 * {
     box-sizing: border-box;
@@ -30,7 +29,7 @@ body {
     width: 100%;
     border-bottom: solid rgba(34, 77, 18, 0.071);
     padding-bottom: 1em;
-    margin-top: 2em;
+    padding-top: 2em;
 }
 
 .logo
@@ -68,6 +67,7 @@ body {
     background-position-y: center;
     padding: 1em;
     height: 24em;
+
 }
 
 
@@ -76,19 +76,19 @@ body {
     backdrop-filter: blur(-5px);
     box-shadow: 0px 10px 20px rgba(0,0,0,0.4); 
     padding: 1em;
-    width: 10em;
     margin: 0 auto;
-    margin-top: 6rem;
+    max-width: 36rem;
+    margin-top: 7rem;
     border-radius: 5px;
 }   
 
 h1{
     font-family: buurtCampusArial-Bold;
     text-align: center;
-    font-size:  3em;
+    font-size:  2em;
     margin-top: 2em;
     margin-bottom: 2em;
-    color:rgba(34, 77, 18, 0.838);
+    color: rgba(34, 77, 18, 1);
 }
 
 .koptext{
@@ -161,7 +161,7 @@ ul{
     list-style-type: none;
     list-style: none; 
     justify-content: space-between;
-    padding:0 auto;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     margin: 0  auto;
@@ -208,9 +208,8 @@ a:hover  h3{
 }
 
 a{
-        text-decoration: none;
-        transition: transform .2s;
-        
+    text-decoration: none;
+    transition: transform .2s;      
 }
 
 footer{
@@ -314,7 +313,10 @@ h4{
 
 .kader-stekje{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .plant1{
@@ -323,9 +325,9 @@ h4{
     align-items: center;
     margin: 0 auto;
     margin: 1em 1em;
-    min-width: 19rem;
-    width: 40rem;
-    height: 20rem;
+    min-width: 20rem;
+    max-width: 30rem;
+    min-height: 20rem;
     border-radius: 5px;
     object-fit: cover;
     box-shadow: 0 8px 14px -10px  rgb(79, 107, 0);
@@ -333,7 +335,8 @@ h4{
 
 .beschrijving-plant{
     color:black;
-    width: 40rem;
+    min-width: 29rem;
+    max-width: 10rem;
     height: 20rem;
     background-color: rgba(255, 255, 255, 0.347);
     display: block;
