@@ -220,18 +220,19 @@ margin: 0 auto;
 
 article {
 padding: 0.5em;
-margin-bottom: 1em;
+margin-bottom: .5em;
 }
 
 .contact {
 border-right: solid white;
 padding-right: 2em;
+padding-bottom: 5rem;
+margin: 0 ;
 }
 
 .overons {
 border-left: solid white;
 padding-left: 3em;
-
 }
 
 .campus-logo {
@@ -306,7 +307,7 @@ justify-items: center;
 align-items: center;
 margin: 0 auto;
 margin-top: 2rem;
-min-width: 19rem;
+max-width: 19rem;
 height: 22rem;
 border-radius: 5px;
 object-fit: cover;
@@ -314,7 +315,7 @@ box-shadow: 0 8px 14px -10px rgb(79, 107, 0);
 }
 
 .beschrijving-plant {
-color: rgba(34, 77, 18, 0.838);
+color: rgba(14, 31, 7, 0.838);
 width: 80%;
 background-color: rgba(255, 255, 255, 0.347);
 display: block;
