@@ -3,6 +3,7 @@ Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze 
 
 # Buurtcampus: Plant Swap
 
+
 ## Inhoudsopgave
 
   * [User-story](#User-story)
@@ -16,18 +17,30 @@ Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze 
 **Mijn user story:** Als bewoner van Amsterdam-Oost wil ik duidelijk kunnen inzien, waar ik stekjes op een fysieke locatie kan ophalen, brengen of ruilen.
 
 
-
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
+Hier heb ik een ontwerp gemaak voor de opdrachtgever Buurtcampus-Oost, met daar in een component/pagina/site die toegankelijk is volgens de WCAG richtlijnen.
+
+![image](https://user-images.githubusercontent.com/112856590/207286511-f4a3ae73-4c84-435e-af63-235df781126a.png)
+
+ 🌐 Link:  http://plantswap.jalal.student.fdnd.nl/
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
+🛠 De toegankelijkheid heb ik getest met de volgende richtlijnen:
+ - Lighthouse Audit test
+ - Start with the keyboard test
+ - Screenreader test
+ - Interactive elements test
+ - Headings & landmarks test
 
 
 ## Bronnen
+
+- https://www.w3.org/TR/WCAG21/
+- https://www.a11yproject.com/
+- https://webaim.org/articles/voiceover/
 
 ## Licentie
 
