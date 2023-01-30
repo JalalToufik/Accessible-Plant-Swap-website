@@ -16,7 +16,8 @@ Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze 
 
 ## 📑 User-story 
  
-**Mijn user story:** Als bewoner van Amsterdam-Oost wil ik duidelijk kunnen inzien, waar ik stekjes op een fysieke locatie kan ophalen, brengen of ruilen.
+**Mijn user story:** 
+Als bewoner van Amsterdam-Oost wil ik duidelijk kunnen inzien, waar ik stekjes op een fysieke locatie kan ophalen, brengen of ruilen.
 
 
 ## 📝 Beschrijving 
