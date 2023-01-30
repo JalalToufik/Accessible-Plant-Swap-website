@@ -6,7 +6,7 @@ Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze 
 ![image](https://user-images.githubusercontent.com/112856590/207286511-f4a3ae73-4c84-435e-af63-235df781126a.png)
 
 
-## 📦Inhoud
+## 📦 Inhoud
 
   * [User-story](#user-story)
   * [Kenmerken](#kenmerken)
@@ -19,12 +19,12 @@ Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze 
 **Mijn user story:** Als bewoner van Amsterdam-Oost wil ik duidelijk kunnen inzien, waar ik stekjes op een fysieke locatie kan ophalen, brengen of ruilen.
 
 
-## 📝Beschrijving 
+## 📝 Beschrijving 
 
 Hier heb ik een ontwerp gemaak voor de opdrachtgever Buurtcampus-Oost, met daar in een component/pagina/site die toegankelijk is volgens de WCAG richtlijnen.
 
 
-## 📍Kenmerken 
+## 📍 Kenmerken 
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 🛠 De toegankelijkheid heb ik getest met de volgende richtlijnen:
@@ -34,7 +34,7 @@ Hier heb ik een ontwerp gemaak voor de opdrachtgever Buurtcampus-Oost, met daar 
  - Interactive elements test
  - Headings & landmarks test
 
-## 📖Bronnen 
+## 📖 Bronnen 
 
 - https://www.w3.org/TR/WCAG21/
 - https://www.a11yproject.com/
