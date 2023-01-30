@@ -8,13 +8,13 @@ Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze 
 
 ## 📦Inhoud
 
-  * [User-story](#User-story)
+  * [User-story](#user-story)
   * [Kenmerken](#kenmerken)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
   
 
-## User-story 📑
+## 📑 User-story 
  
 **Mijn user story:** Als bewoner van Amsterdam-Oost wil ik duidelijk kunnen inzien, waar ik stekjes op een fysieke locatie kan ophalen, brengen of ruilen.
 
